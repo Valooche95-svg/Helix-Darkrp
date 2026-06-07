@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hélix Roleplay — Serveur Garry's Mod DarkRP</title>
+  <meta name="description" content="Site officiel du serveur Garry's Mod DarkRP Hélix Roleplay : règlement, métiers, boutique VIP, staff, candidatures et Discord." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" />
+  <script defer src="assets/script.js"></script>
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="navbar" id="top">
+    <a class="brand" href="#accueil">
+      <span class="brand-mark">H</span>
+      <span><strong>HÉLIX</strong><small>ROLEPLAY</small></span>
+    </a>
+    <button class="menu-btn" aria-label="Ouvrir le menu">☰</button>
+    <nav class="nav-links">
+      <a href="#accueil">Accueil</a><a href="#infos">Infos</a><a href="#metiers">Métiers</a><a href="#boutique">Boutique</a><a href="#reglement">Règlement</a><a href="#staff">Staff</a><a href="#recrutement">Recrutement</a>
+    </nav>
+    <a class="btn btn-small" href="https://discord.gg/tondiscord" target="_blank">Discord</a>
+  </header>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div class="hero-bg"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">Serveur Garry's Mod DarkRP français</p>
+        <h1>Entre dans <span>Hélix Roleplay</span>, une ville sombre, vivante et immersive.</h1>
+        <p class="hero-text">Jobs exclusifs, économie équilibrée, scène RP sérieuse, staff actif, événements réguliers et une communauté prête à écrire son histoire.</p>
+        <div class="hero-actions">
+          <a class="btn" href="steam://connect/TON.IP.SERVEUR:27015">Rejoindre le serveur</a>
+          <a class="btn btn-ghost" href="#recrutement">Postuler staff</a>
+        </div>
+        <div class="server-card">
+          <div><small>IP serveur</small><strong id="serverIp">TON.IP.SERVEUR:27015</strong></div>
+          <button class="copy" data-copy="TON.IP.SERVEUR:27015">Copier</button>
+        </div>
+      </div>
+      <div class="hero-panel reveal">
+        <div class="status"><span class="dot"></span> Serveur bientôt ouvert</div>
+        <div class="panel-logo">H</div>
+        <div class="stats-grid">
+          <div><strong>64</strong><small>Slots</small></div><div><strong>24/7</strong><small>Ouvert</small></div><div><strong>+35</strong><small>Métiers</small></div><div><strong>FR</strong><small>Communauté</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="infos">
+      <div class="section-head reveal"><p class="eyebrow">Pourquoi nous rejoindre ?</p><h2>Un DarkRP complet et travaillé</h2></div>
+      <div class="features">
+        <article class="card reveal"><span>⚡</span><h3>Optimisé</h3><p>Map fluide, addons sélectionnés, chargement rapide et interface propre.</p></article>
+        <article class="card reveal"><span>🏙️</span><h3>Ville immersive</h3><p>Quartiers, commerces, forces de l'ordre, gangs, entreprises et événements RP.</p></article>
+        <article class="card reveal"><span>🛡️</span><h3>Staff actif</h3><p>Modération présente, tickets Discord, sanctions claires et aide aux nouveaux joueurs.</p></article>
+        <article class="card reveal"><span>💸</span><h3>Économie</h3><p>Argent équilibré, métiers rentables sans pay-to-win et boutique propre.</p></article>
+      </div>
+    </section>
+
+    <section class="section split" id="metiers">
+      <div class="section-head reveal"><p class="eyebrow">Métiers</p><h2>Choisis ton rôle dans la ville</h2><p>Voici des exemples. Tu peux tout modifier dans le fichier HTML.</p></div>
+      <div class="jobs reveal">
+        <button class="job active" data-job="police">Police Nationale</button>
+        <button class="job" data-job="ems">SAMU / Médecin</button>
+        <button class="job" data-job="gang">Organisation illégale</button>
+        <button class="job" data-job="maire">Maire</button>
+        <button class="job" data-job="business">Commerçant</button>
+      </div>
+      <div class="job-detail card reveal" id="jobDetail">
+        <h3>Police Nationale</h3><p>Maintiens l'ordre, mène des enquêtes, arrête les criminels et protège les citoyens.</p><ul><li>Grades évolutifs</li><li>Patrouilles et interventions</li><li>Matériel réglementé</li></ul>
+      </div>
+    </section>
+
+    <section class="section" id="boutique">
+      <div class="section-head reveal"><p class="eyebrow">Boutique</p><h2>Packs VIP équilibrés</h2><p>Boutique exemple : remplace les liens par ta boutique Tebex, Shopify ou autre.</p></div>
+      <div class="pricing">
+        <article class="price card reveal"><h3>VIP</h3><p class="price-tag">4,99€</p><ul><li>Grade Discord</li><li>Jobs VIP légers</li><li>Argent bonus de départ</li></ul><a class="btn btn-ghost" href="#">Voir</a></article>
+        <article class="price card featured reveal"><div class="badge">Populaire</div><h3>VIP+</h3><p class="price-tag">9,99€</p><ul><li>Tous les avantages VIP</li><li>Véhicule exclusif</li><li>File prioritaire</li></ul><a class="btn" href="#">Acheter</a></article>
+        <article class="price card reveal"><h3>Fondateur</h3><p class="price-tag">19,99€</p><ul><li>Cosmétiques exclusifs</li><li>Salon privé</li><li>Soutien au serveur</li></ul><a class="btn btn-ghost" href="#">Voir</a></article>
+      </div>
+    </section>
+
+    <section class="section" id="reglement">
+      <div class="section-head reveal"><p class="eyebrow">Règlement</p><h2>Les règles principales</h2></div>
+      <div class="rules reveal">
+        <details open><summary>No FearRP / No PainRP</summary><p>Respecte la peur, les blessures et les situations dangereuses.</p></details>
+        <details><summary>No FreeKill / No FreeArrest</summary><p>Aucune action agressive sans vraie raison RP.</p></details>
+        <details><summary>Respect des scènes RP</summary><p>Pas de troll, pas de HRP vocal en scène, pas de spam micro.</p></details>
+        <details><summary>New Life Rule</summary><p>Après ta mort, oublie la scène précédente et ne reviens pas immédiatement.</p></details>
+      </div>
+    </section>
+
+    <section class="section" id="staff">
+      <div class="section-head reveal"><p class="eyebrow">Équipe</p><h2>Staff du serveur</h2></div>
+      <div class="staff-grid">
+        <article class="staff card reveal"><div class="avatar">F</div><h3>Fondateur</h3><p>Gestion globale, développement, décisions importantes.</p></article>
+        <article class="staff card reveal"><div class="avatar">A</div><h3>Admin</h3><p>Tickets, sanctions, aide aux joueurs et événements.</p></article>
+        <article class="staff card reveal"><div class="avatar">M</div><h3>Modérateur</h3><p>Surveillance RP, support et accueil des nouveaux.</p></article>
+      </div>
+    </section>
+
+    <section class="section recruit" id="recrutement">
+      <div class="section-head reveal"><p class="eyebrow">Recrutement</p><h2>Rejoins l'équipe Hélix</h2><p>Formulaire visuel prêt à remplacer par Google Forms, Discord Forms ou un vrai backend.</p></div>
+      <form class="form card reveal" onsubmit="return false;">
+        <input placeholder="Pseudo Discord" />
+        <input placeholder="SteamID" />
+        <select><option>Poste souhaité</option><option>Helpeur</option><option>Modérateur Test</option><option>Développeur</option></select>
+        <textarea placeholder="Présente-toi et explique tes motivations"></textarea>
+        <button class="btn" type="submit">Envoyer ma candidature</button>
+        <small>Ce formulaire est décoratif. Remplace-le par ton lien Discord/Google Forms.</small>
+      </form>
+    </section>
+
+    <section class="section faq">
+      <div class="section-head reveal"><p class="eyebrow">FAQ</p><h2>Questions fréquentes</h2></div>
+      <div class="rules reveal">
+        <details><summary>Le serveur est-il whitelist ?</summary><p>Tu peux choisir : ouvert à tous ou accès via candidature Discord.</p></details>
+        <details><summary>Comment rejoindre le Discord ?</summary><p>Clique sur le bouton Discord en haut du site.</p></details>
+        <details><summary>Peut-on proposer des idées ?</summary><p>Oui, ajoute un salon suggestions sur ton Discord.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#top"><span class="brand-mark">H</span><span><strong>HÉLIX</strong><small>ROLEPLAY</small></span></a>
+    <p>© 2026 Hélix Roleplay — Site fan Garry's Mod DarkRP.</p>
+    <div><a href="#reglement">Règlement</a><a href="#boutique">Boutique</a><a href="https://discord.gg/tondiscord">Discord</a></div>
+  </footer>
+</body>
+</html>
